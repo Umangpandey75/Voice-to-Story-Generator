@@ -12,7 +12,9 @@ An AI-powered creative writing studio that transforms spoken conversations, voic
 - **📚 Story Studio**: Weave raw dialogue transcripts into customized literary styles (Narrative Short Story, Screenplay script, Professional News Article, Epic Fantasy, etc.) using custom system prompt directives.
 - **💾 MERN Persistence & Smart Fallback**: Saves your work to MongoDB. If MongoDB is not running locally, it gracefully switches to session-based in-memory storage so the app remains fully functional.
 - **📄 Document Export**: Compile and download complete reports containing metadata, transcripts, and generated stories as formatted PDF or JSON files.
-![Uploading Screenshot 2026-06-10 121439.png…]()
+<img width="1915" height="984" alt="Screenshot 2026-06-10 121439" src="https://github.com/user-attachments/assets/a0f7090f-90e3-420a-9e46-70f184a5b0e8" />
+
+
 
 ---
 
