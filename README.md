@@ -64,70 +64,7 @@ You need to run both the frontend dev server and the backend server.
 output
 [Bol Do Na_report.pdf](https://github.com/user-attachments/files/28784222/Bol.Do.Na_report.pdf)
 [Bol Do Na_transcript.txt](https://github.com/user-attachments/files/28784224/Bol.Do.Na_transcript.txt)
-VOICE TO STORY GENERATOR REPORT
-====================================
-Metadata:
-- Source File: Bol Do Na.mp3.mp3
-- Transcription: Gemini API
-- Date Created: 10/06/2026
 
-Generated Story:
-----------------
-The city lights blurred into streaks of gold and crimson as Rohan looked at Anya, his heart a drum against his ribs. They sat on the old, familiar bench by the lake, the cool evening breeze rustling the leaves above them. He took her hand, his thumb tracing the soft curve of her knuckles, and a deep sigh escaped him.
-
-"Itni mohabbat karo na," he began, his voice a soft, almost reverent whisper, "Main doob na jaaun kahin." He smiled, a hint of apprehension mixing with his adoration. "Wapas kinare pe aana, main bhool na jaaun kahin." He chuckled softly, but his eyes were serious, reflecting the depth of his feelings. "Dekha jab se chehra tera, main toh hafton se soya nahi." It was true; her image had imprinted itself onto his waking thoughts and restless dreams.
-
-He squeezed her hand gently, his gaze unwavering, trying to coax the unspoken words from her. "Bol do na zara," he pleaded, his voice earnest. "Dil mein jo hai chhupa." He leaned closer, his promise clear in his eyes. "Main kisi se kahunga nahi." He repeated it, a steadfast vow. "Bol do na zara, dil mein jo hai chhupa, main kisi se kahunga nahi. Main kisi se kahunga nahi."
-
-A shadow fell over his face, and his earlier playfulness dissolved into a profound vulnerability. His grip on her hand tightened, almost desperately. "Mujhe neend aati nahi hai akele," he confessed, a raw, quiet sadness in his tone. "Khwabon mein aaya karo." He looked at her, his dependence stark. "Nahi chal sakunga tumhare bina main, mera tum sahara bano." It was more than just love; it was a plea for partnership, for an anchor in his world.
-
-Then, a resolute strength returned to his features, chasing away the fleeting melancholy. "Ek tumhe chaahne ke alawa," he declared, his voice firm with conviction, "Aur kuch humse hoga nahi." His purpose was singular, unwavering. And once more, the request, softened by affection but imbued with an undying hope. "Bol do na zara, dil mein jo hai chhupa, main kisi se kahunga nahi. Bol do na zara, dil mein jo hai chhupa, main kisi se kahunga nahi. Main kisi se kahunga nahi."
-
-He gazed out at the shimmering lake, a distant, pensive look in his eyes, as if seeing a future yet to unfold. A wistful melancholy crept into his voice again. "Hamari kami tumko mehsoos hogi," he murmured, "Bhiga dengi jab barishen." He turned back to her, his eyes brimming with unspoken emotions. "Mai bharkar ke laaya hu aankhon mein apni, adhoori si kuch khwahishen."
-
-He gently cupped her face in his hands, his touch tender, his expression profound. "Rooh se chaahne wale aashiq," he stated, his voice resonating with deep conviction, "Baatein jismon ki karte nahi." His love was pure, unblemished, seeking only connection of spirit. And in the quiet hum of the evening, his voice rose one last time, a fervent appeal, a hope echoing across the lake. "Bol do na zara, dil mein jo hai chhupa, main kisi se kahunga nahi. Bol do na zara, dil mein jo hai chhupa, main kisi se kahunga nahi. Main kisi se kahunga nahi."
-
-Dialogue Script:
-----------------
-[Speaker 1] (Neutral): Itni mohabbat karo na
-[Speaker 1] (Neutral): Main doob na jaaun kahin
-[Speaker 1] (Neutral): Wapas kinare pe aana
-[Speaker 1] (Neutral): Main bhool na jaaun kahin
-[Speaker 1] (Neutral): Dekha jab se chehra tera
-[Speaker 1] (Neutral): Main toh hafton se soya nahi
-[Speaker 1] (Neutral): Bol do na zara
-[Speaker 1] (Neutral): Dil mein jo hai chhupa
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Neutral): Bol do na zara
-[Speaker 1] (Neutral): Dil mein jo hai chhupa
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Sad): Mujhe neend aati nahi hai akele
-[Speaker 1] (Sad): Khwabon mein aaya karo
-[Speaker 1] (Sad): Nahi chal sakunga tumhare bina main
-[Speaker 1] (Sad): Mera tum sahara bano
-[Speaker 1] (Neutral): Ek tumhe chaahne ke alawa
-[Speaker 1] (Neutral): Aur kuch humse hoga nahi
-[Speaker 1] (Neutral): Bol do na zara
-[Speaker 1] (Neutral): Dil mein jo hai chhupa
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Neutral): Bol do na zara
-[Speaker 1] (Neutral): Dil mein jo hai chhupa
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Sad): Hamari kami tumko mehsoos hogi
-[Speaker 1] (Sad): Bhiga dengi jab barishen
-[Speaker 1] (Sad): Mai bharkar ke laaya hu aankhon mein apni
-[Speaker 1] (Sad): Adhoori si kuch khwahishen
-[Speaker 1] (Neutral): Rooh se chaahne wale aashiq
-[Speaker 1] (Neutral): Baatein jismon ki karte nahi
-[Speaker 1] (Neutral): Bol do na zara
-[Speaker 1] (Neutral): Dil mein jo hai chhupa
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Neutral): Bol do na zara
-[Speaker 1] (Neutral): Dil mein jo hai chhupa
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
-[Speaker 1] (Neutral): Main kisi se kahunga nahi
 
 ### Start the Backend Server
 ```bash
@@ -144,7 +81,7 @@ cd frontend
 npm install
 npm run dev
 ```
-The frontend will run on **`http://localhost:5173`**.
+The frontend will run on **`http://localhost:5173/`**.
 
 ---
 
