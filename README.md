@@ -12,6 +12,9 @@ An AI-powered creative writing studio that transforms spoken conversations, voic
 - **📚 Story Studio**: Weave raw dialogue transcripts into customized literary styles (Narrative Short Story, Screenplay script, Professional News Article, Epic Fantasy, etc.) using custom system prompt directives.
 - **💾 MERN Persistence & Smart Fallback**: Saves your work to MongoDB. If MongoDB is not running locally, it gracefully switches to session-based in-memory storage so the app remains fully functional.
 - **📄 Document Export**: Compile and download complete reports containing metadata, transcripts, and generated stories as formatted PDF or JSON files.
+<img width="1915" height="984" alt="Screenshot 2026-06-10 121439" src="https://github.com/user-attachments/assets/a0f7090f-90e3-420a-9e46-70f184a5b0e8" />
+
+
 
 ---
 
@@ -52,6 +55,16 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ## 💻 Running the Application
 
 You need to run both the frontend dev server and the backend server.
+<img width="1917" height="954" alt="Screenshot 2026-06-10 122636" src="https://github.com/user-attachments/assets/b1e1c328-6f5a-4128-9bf8-82481d8cf1a2" />
+<img width="1904" height="922" alt="Screenshot 2026-06-10 122624" src="https://github.com/user-attachments/assets/d163e9c4-7378-4f08-a5db-0ebdad3c85b4" />
+<img width="1917" height="944" alt="Screenshot 2026-06-10 122831" src="https://github.com/user-attachments/assets/91a931c2-30bf-40d6-9841-884d8ab3a54f" />
+<img width="1919" height="899" alt="Screenshot 2026-06-10 122840" src="https://github.com/user-attachments/assets/d3769c05-ef24-495e-b298-2b9d317b37c2" />
+<img width="1919" height="950" alt="Screenshot 2026-06-10 123007" src="https://github.com/user-attachments/assets/3819d584-d521-4dc1-bc98-db23d3148c44" />
+<img width="1919" height="959" alt="Screenshot 2026-06-10 123041" src="https://github.com/user-attachments/assets/1f010f6f-985a-4616-815c-bc9393fb4b9a" />
+output
+[Bol Do Na_report.pdf](https://github.com/user-attachments/files/28784222/Bol.Do.Na_report.pdf)
+[Bol Do Na_transcript.txt](https://github.com/user-attachments/files/28784224/Bol.Do.Na_transcript.txt)
+
 
 ### Start the Backend Server
 ```bash
@@ -68,7 +81,7 @@ cd frontend
 npm install
 npm run dev
 ```
-The frontend will run on **`http://localhost:5173`**.
+The frontend will run on **`http://localhost:5173/`**.
 
 ---
 
