@@ -261,6 +261,7 @@ app.post('/api/transcribe', upload.single('audio'), async (req, res) => {
     let mimeType = 'audio/mpeg';
     if (ext === 'wav') mimeType = 'audio/wav';
     else if (ext === 'mp3') mimeType = 'audio/mp3';
+    else if (ext === 'mpeg' || ext === 'mpg' || ext === 'mp2') mimeType = 'audio/mpeg';
     else if (ext === 'm4a' || ext === 'aac') mimeType = 'audio/aac';
     else if (ext === 'flac') mimeType = 'audio/flac';
     else if (ext === 'ogg') mimeType = 'audio/ogg';
@@ -410,6 +411,10 @@ app.post('/api/pdf', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
+
+export default app;

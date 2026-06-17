@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Volume2, Play, Pause, Square, Download, FileText, FileDown, Loader2, RefreshCw } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function TabExport({ 
   segments, 
@@ -100,7 +101,7 @@ export default function TabExport({
     setIsBuildingPdf(true);
 
     try {
-      const res = await fetch('http://localhost:5000/api/pdf', {
+      const res = await fetch(`${API_BASE}/api/pdf`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

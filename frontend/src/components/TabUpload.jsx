@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { UploadCloud, Mic, Link2, FileText, CheckCircle2, AlertTriangle, Play, Square, Loader2 } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function TabUpload({ 
   onTranscriptionSuccess, 
@@ -240,7 +241,7 @@ export default function TabUpload({
         headers['x-gemini-key'] = apiKey;
       }
 
-      const res = await fetch('http://localhost:5000/api/transcribe', {
+      const res = await fetch(`${API_BASE}/api/transcribe`, {
         method: 'POST',
         headers,
         body: formData
@@ -378,7 +379,7 @@ export default function TabUpload({
             />
             <UploadCloud className="w-12 h-12 text-slate-500 mb-3" />
             <p className="text-slate-300 font-medium text-center">Drag and drop audio file here or click to browse</p>
-            <p className="text-xs text-slate-500 mt-2">Supports WAV, MP3, M4A, FLAC, OGG, WebM</p>
+            <p className="text-xs text-slate-500 mt-2">Supports WAV, MP3, M4A, FLAC, OGG, WebM, MPEG</p>
             {audioBlob && (
               <span className="mt-4 px-3 py-1 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full text-xs font-semibold">
                 Selected: {audioBlob.name || 'Custom File'}

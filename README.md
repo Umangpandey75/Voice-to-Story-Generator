@@ -6,7 +6,7 @@ An AI-powered creative writing studio that transforms spoken conversations, voic
 
 ## ✨ Features
 
-- **🗣️ Audio Transcription & Speaker Diarization**: Upload files (`WAV`, `MP3`, `M4A`, `FLAC`, `OGG`, `WebM`) or record your voice directly from the browser. Employs Gemini for speech-to-text, speaker segmentation, and tone detection.
+- **🗣️ Audio Transcription & Speaker Diarization**: Upload files (`WAV`, `MP3`, `M4A`, `FLAC`, `OGG`, `WebM`, `MPEG`) or record your voice directly from the browser. Employs Gemini for speech-to-text, speaker segmentation, and tone detection.
 - **✍️ Interactive Dialogue Editor**: Refine speaker assignments, adjust text, and modify emotional undertones (Happy, Sad, Angry, Excited, Neutral).
 - **📊 Speech Analytics**: Visualize conversational dynamics, speaker turn ratios, and emotional flow.
 - **📚 Story Studio**: Weave raw dialogue transcripts into customized literary styles (Narrative Short Story, Screenplay script, Professional News Article, Epic Fantasy, etc.) using custom system prompt directives.

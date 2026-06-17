@@ -10,6 +10,7 @@ import TabEditor from './components/TabEditor';
 import TabAnalytics from './components/TabAnalytics';
 import TabStory from './components/TabStory';
 import TabExport from './components/TabExport';
+import { API_BASE } from './config';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('upload');
@@ -34,7 +35,7 @@ export default function App() {
   const fetchHistory = async () => {
     setIsFetchingHistory(true);
     try {
-      const res = await fetch('http://localhost:5000/api/history');
+      const res = await fetch(`${API_BASE}/api/history`);
       if (res.ok) {
         const data = await res.json();
         setHistoryLogs(data);
@@ -65,7 +66,7 @@ export default function App() {
     if (dataToSave.segments.length === 0) return;
 
     try {
-      const res = await fetch('http://localhost:5000/api/history', {
+      const res = await fetch(`${API_BASE}/api/history`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dataToSave)
@@ -83,7 +84,7 @@ export default function App() {
     e.stopPropagation();
     if (!window.confirm('Are you sure you want to delete this log?')) return;
     try {
-      const res = await fetch(`http://localhost:5000/api/history/${id}`, {
+      const res = await fetch(`${API_BASE}/api/history/${id}`, {
         method: 'DELETE'
       });
       if (res.ok) {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpen, Sparkles, Loader2, RefreshCw, AlertTriangle, FileText } from 'lucide-react';
+import { API_BASE } from '../config';
 
 const STORY_STYLES = [
   { name: 'Narrative Short Story', description: 'Transform the conversation into a fluid prose story with narrator details.' },
@@ -39,7 +40,7 @@ export default function TabStory({
         headers['x-gemini-key'] = apiKey;
       }
 
-      const res = await fetch('http://localhost:5000/api/story', {
+      const res = await fetch(`${API_BASE}/api/story`, {
         method: 'POST',
         headers,
         body: JSON.stringify({
